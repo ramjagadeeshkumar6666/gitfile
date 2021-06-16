@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label 'master'
+        label 'rhel'
     }
 
     stages{
@@ -17,3 +17,5 @@ pipeline{
                 sh 'mvn clean install'
             }
         }
+	}
+}
