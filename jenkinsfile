@@ -1,0 +1,5 @@
+node('master') {
+    stage ('git') {
+        git 'https://github.com/dummygitrepos/gameoflife.git'
+    }
+}
